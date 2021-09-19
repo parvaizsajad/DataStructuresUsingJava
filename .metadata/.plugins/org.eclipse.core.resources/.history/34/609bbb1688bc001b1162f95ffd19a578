@@ -1,0 +1,59 @@
+package ll;
+
+
+
+public class LL {
+	public class Node{
+		Node next;
+		Node prev;
+		int data;
+	public Node(int data) {
+		this.data=data;
+	}
+	}
+Node head;
+Node tail;
+int size=0;
+	
+	
+	@Override
+public String toString() {
+		StringBuffer sb=new StringBuffer();
+		sb.append("[");
+		Node curr=head;
+		while(curr!=null) {
+			sb.append(curr.data).append(",");
+			curr=curr.next;
+			if(sb.length()>1) {// when ever we add the commas we will have an extra comma in the output 
+			sb.deleteCharAt(sb.length()-1);//// here we will use the method delete char at length minus 1 to get the last element of the string.
+		}
+		
+		}
+
+			sb.append("]");// at last we will append the closing the bracket 
+			
+			return sb.toString(); //ad return the sb string 
+		}
+
+	public void add(int data) {
+	Node nn=new Node(data);
+		if(head==null) {
+			head=tail=nn;
+		}else
+		{
+			head.next=nn;
+			nn.prev=tail;
+			tail=nn;
+		}
+		size++;
+		System.out.print(this);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+LL ll=new LL();
+ll.add(0);
+System.out.println(ll.size);
+	}
+
+}

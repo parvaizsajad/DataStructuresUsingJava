@@ -1,0 +1,13 @@
+INDEX VERSION 1.131
+C:\Users\Parva\eclipse-workspace-def\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\342735672.index
+\ggg\src
+C:\Users\Parva\eclipse-workspace-def\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4086144776.index
+\CreateBucket\src\main\resources
+C:\Users\Parva\eclipse-workspace-def\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1959257377.index
+\jsp-servlet-jdbc-mysql-example\src
+C:\Users\Parva\eclipse-workspace-def\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4271877087.index
+\awsproj\src\main\resources
+C:\Users\Parva\eclipse-workspace-def\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2163044018.index
+\mailaaa\src\main\java
+C:\Users\Parva\eclipse-workspace-def\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\648987399.index
+\test\src

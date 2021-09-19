@@ -1,0 +1,60 @@
+package ll;
+
+
+
+public class LL {
+	// we will create one inner class which will be used  to create one new node in the link list if we want to enter it any where.
+		public class Node{
+			//the node will contain two fields data and the next. Data will store 
+			//the data example 5,8 and the node will store the address of the next node.
+			
+			int data ;
+			Node next;
+			Node prev;
+			public Node(int data) {
+				//here we will set the data outside equal the inner data.
+				this.data=data;
+				
+			}//closing of the constructor
+			
+		}//ending of the inner class node....
+	Node head;//we will create the field head of the type node.....
+	Node tail; // the tail of the type node.
+	int size=0;//size of the type int to track the size of the link list.
+	// method to append the element at the end of the link list.
+	
+	public void add(int data) {
+		Node newNode=new Node(data);
+		Node curr = null;
+	if(curr==null) {
+   
+        head=tail=newNode;
+   }
+	else 
+	{
+	   tail.next=newNode;
+	   newNode.prev=tail;
+	   newNode=tail;
+	   
+   }
+	size++;
+	System.out.println(this);
+	}
+	@Override
+	public String toString() {
+		return "LL []";
+	}
+	public int get(int index) {
+		
+		return index;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+LL ll=new LL();
+ll.add(2);
+ll.add(3);
+ll.add(4);
+System.out.println(ll.size);
+	}
+
+}

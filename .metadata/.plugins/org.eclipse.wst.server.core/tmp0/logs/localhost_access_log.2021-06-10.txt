@@ -1,0 +1,2 @@
+127.0.0.1 - - [10/Jun/2021:05:59:13 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [10/Jun/2021:05:59:15 +0530] "GET /awsproj/WEB-INF/classes/AmazonSESSample.java HTTP/1.1" 404 992
